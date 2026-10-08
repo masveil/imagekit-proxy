@@ -1,0 +1,10 @@
+name = "imagekit-proxy"
+main = "worker.js"
+compatibility_date = "2025-11-10"
+compatibility_flags = ["nodejs_compat"]
+preview_urls = true
+workers_dev = true
+
+[[routes]]
+pattern = "ik.maarifdh.sch.id/*"
+zone_name = "maarifdh.sch.id"
